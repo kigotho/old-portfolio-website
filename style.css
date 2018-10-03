@@ -1,0 +1,292 @@
+html,body,.container,.main_row{
+    height: 100%;
+}
+.container {
+    max-width: 97%;
+}
+body{margin:0 0;
+    padding: 0 0;
+    }
+container{
+  max-width:90%;
+  height: auto;
+
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+nav{width: 10%;
+     height: 100%;
+     position: fixed;
+    background-color: aqua;}
+
+/**Home-page***/
+.part1{
+    flex: 0 0 11.333%;
+    max-width: 11.333%;
+    background-color: #000;
+}
+.container .row .part1 .row{
+      height: 20%;
+}
+.part1 li{
+    
+    float: none;
+    margin: 0;
+    margin-top: 0;
+    vertical-align: text-bottom;
+    display: inline-block;
+    color: #fff;
+        
+}
+.part1 .row1{
+   margin-top: 100px;
+}
+*, *::after, *::before {
+    box-sizing: unset;
+}
+::after,::before {
+    box-sizing: initial;
+}
+svg:not(:root) {
+    overflow: hidden;
+    margin: 0 12px 0 20px;
+    
+}
+.top_row{
+     background: #000;
+     height: 50px;
+}
+
+banner{
+    width: 100%;
+    background-color:dimgrey;
+}
+
+#section_welcome{ width: 25%;
+              height:413px;
+              margin-top: 50px;
+    
+    }
+#section_tools{ width: 25%;
+              float: right;
+              height:413px;
+              margin-top: 50px;
+    }
+
+li{ font-family:"trench"; 
+            font-size:18px;
+            list-style: none;
+            display: inline-block;
+    
+}
+
+li a{ text-decoration:none; 
+         color:#666;}
+
+
+
+h5{
+        line-height:3;
+
+}
+.top_row h1{
+    text-align: center;
+    width: 80%;
+    color: #fff;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: left;
+    font-weight:lighter;
+    line-height: 1.5;
+    font-size: 30px;
+}
+.home img{
+    width: 100%;
+}
+.home .col-3 img{
+    width: 47%;
+}
+.about .col-5 img{
+    width: 44%;
+    margin-left: 20%;
+}
+.bottom_row_home{
+    margin-top: 10%;
+}
+.home{
+    margin-top: 13%;
+}
+.about{
+    margin-top: 4%;
+}
+.section_bio h1{
+    margin-top: 25%;
+}
+.projects{
+    margin: 4% 0;
+  width:100%;
+  height:calc(100% - 0px);
+  margin-top:55px;
+  overflow-y:scroll;
+  max-height: 555px;
+}
+
+
+.projects .col-4 {
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+.siteimg{
+    margin-bottom: 10px;
+    
+}
+.siteimg img{
+    width: 99%;
+    border: 1px solid #d1cece;
+      
+}
+/*scroll css*/
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+/*---about-page------*/
+
+.section_bio{
+       margin:10% 0  0 12%;
+    }
+#section_img{ width: 50%;
+              height:613px;
+    
+    }
+.p_section{
+    font-size: 19px;
+    
+}
+#section_foter{
+    width: 40%;
+    margin-left: 8%;
+}
+
+/*-----Projects page------*/
+#projects_content{width:100%;
+       margin:0 0 0 0%;
+    }
+.img3a{
+    width: 5%;
+}
+/*-----Contact page------*/
+
+.img{margin-left: 25%;
+   }
+
+h4{font-weight: 300;}
+footer{
+    margin:3% 0% 0% 50%;
+    
+}
+hr{width: 100%;
+   height: 3px;
+  background-color:dimgrey;}
+
+#section_contact{
+    margin-top: -9%;
+    }
+form{margin:47% 0 0 0%;}
+
+.section_.top_row _contact{
+       margin:10% 0  0 20%;
+    }
+h5{
+   width: 15%;
+    color:aqua;
+  }
+
+#title{color:black;
+       font-size: 25px;}
+
+@import url(http://fonts.googleapis.com/css?family=Fauna+One|Muli);
+#mainform{
+width:960px;
+margin:20px auto;
+padding-top:20px;
+font-family: 'Fauna One', serif;
+}
+#form{
+border-radius:2px;
+padding:20px 30px;
+box-shadow:0 0 15px;
+font-size:14px;
+font-weight:bold;
+width:350px;
+margin:20px 250px 0 35px;
+
+}
+h3{
+text-align:center;
+font-size:20px;
+}
+input{
+width:100%;
+height:35px;
+margin-top:5px;
+border:1px solid #999;
+border-radius:3px;
+padding:5px;
+}
+input[type=button]{
+background-color:#123456;
+border:1px solid white;
+font-family: 'Fauna One', serif;
+font-Weight:bold;
+font-size:18px;
+color:white;
+}
+textarea{
+width:100%;
+height:80px;
+margin-top:5px;
+border-radius:3px;
+padding:5px;
+resize:none;
+}
+span{
+color:red
+}
+#note{
+color:black;
+font-Weight:400;
+}
+#returnmessage{
+font-size:14px;
+color:green;
+text-align:center;
+}
+
+@media only screen and (max-width: 640px) {
+   
+    nav{width: 20%; 
+height: 100%;
+background-color: aqua;
+
+
+}
+container{
+
+  width:80%;
+}
+.img3a{
+width: 20%;
+}
+h5{width: 25%;
+   }
+banner h1{
+  width:50%;
+  text-align: center;
+}
+.span3{
+height: auto;
+}
+}
+ 
